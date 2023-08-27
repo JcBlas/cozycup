@@ -6,8 +6,8 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f2e0;
-    color: #4c3c32;
+    background-color: #b38b59;
+    color: #ffffff;
 }
 
 header {
@@ -87,7 +87,7 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #b38b59;
 }
 
 .about h2 {
@@ -104,7 +104,7 @@ nav a:hover {
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #4c3c32;
+    background-color: #b38b59;
     color: white;
 }
 
@@ -119,8 +119,57 @@ nav a:hover {
 }
 
 footer {
-    background-color: #4c3c32;
+    background-color: #b38b59;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
+
+/* Menu CSS */
+
+.menus {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .menus > div {
+    text-align: center;
+    margin: 0 100px; /* Adjust the margin here */
+  }
+  
+  .menus img {
+    max-width: 100%;
+    width: 250px; /* Set a fixed width for all images */
+    height: 250px; /* Set a fixed height for all images */
+    margin-bottom: 5px; /* Adjust the margin here */
+  }
+  
+  .menus p {
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Adjust the padding here */
+    font-size: 14px;
+  }
+  .pastry {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .pastry > div {
+    text-align: center;
+    margin: 0 100px; /* Adjust the margin here */
+  }
+  
+  .pastry img {
+    max-width: 100%;
+    width: 250px; /* Set a fixed width for all images */
+    height: 250px; /* Set a fixed height for all images */
+    margin-bottom: 5px; /* Adjust the margin here */
+  }
+  
+  .pastry p {
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Adjust the padding here */
+    font-size: 14px;
+  }
